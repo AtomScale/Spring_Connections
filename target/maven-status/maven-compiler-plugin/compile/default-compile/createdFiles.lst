@@ -1,0 +1,14 @@
+Spring\Application.class
+MongoDB_Objects\Oggetti\Modello.class
+MongoDB_Objects\Oggetti\Tabella.class
+Spring\Controller\Tabella_Controller.class
+MongoDB_Objects\Connessioni\Utente_MongoDB.class
+MongoDB_Objects\Connessioni\Modello_MongoDB.class
+MongoDB_Objects\Connessioni\Tabella_MongoDB.class
+Spring\Controller\Utente_Controller.class
+MongoDB_Objects\Connessioni\ConnectionMongoDb.class
+MongoDB_Objects\Dao\Tabelle_Dao.class
+MongoDB_Objects\Dao\Modello_Dao.class
+MongoDB_Objects\Dao\Utente_Dao.class
+MongoDB_Objects\Oggetti\Utente.class
+Spring\Controller\Modello_Controller.class
