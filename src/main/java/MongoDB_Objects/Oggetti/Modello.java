@@ -33,8 +33,8 @@ public class Modello {
     public String getNome_modello() {
         return nome_modello;
     }
-    public void setNome_modello(String nome_modello) {
-        this.nome_modello = nome_modello;
+    public void setNome_modello(String nome) {
+        this.nome_modello = nome;
     }
  
 }
