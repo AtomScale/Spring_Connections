@@ -68,7 +68,7 @@ public class Tabella_MongoDB implements Tabelle_Dao {
     public Tabella getTabella(Integer id_tabella) {
         try {
             Document documento = (Document) collection.find(eq("id_tabella", id_tabella)).first();
-            Tabella tabella = new Tabella(documento.get("id_tabella"),(String)documento.get("username_utente"),documento.get("id_modelloTabella"),(ArrayList) documento.get("tabelle"));
+            Tabella tabella = new Tabella(documento.get("id_tabella"),(String)documento.get("username_utente"),documento.get("id_modelloTabella"),(ArrayList) documento.get("tabella"));
             return tabella;
         } catch (Exception e) {
             return null;
@@ -79,7 +79,7 @@ public class Tabella_MongoDB implements Tabelle_Dao {
         HashMap<Integer,Tabella> tabelle = new HashMap();
         List<Document> documents = (List<Document>) collection.find().into(new ArrayList<Document>());
         for(Document documento : documents){
-            Tabella tabella = new Tabella(documento.get("id_tabella"),(String)documento.get("username_utente"),documento.get("id_modelloTabella"),(ArrayList) documento.get("tabelle"));
+            Tabella tabella = new Tabella(documento.get("id_tabella"),(String)documento.get("username_utente"),documento.get("id_modelloTabella"),(ArrayList) documento.get("tabella"));
             tabelle.put(tabella.getId_tabella(),tabella);
         }
         return tabelle;
