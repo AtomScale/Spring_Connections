@@ -46,7 +46,7 @@ public class Modello_MongoDB implements Modello_Dao {
             HashMap<Integer,Modello> modelli = new HashMap<>();
             modelli = modelliCollection();
             System.out.println(modelli.getClass());
-            if(modelli.containsKey((int)(long)id_modello)) {
+            if(modelli.containsKey(id_modello)) {
                 doc = (Document) this.collection.find(eq("id_modello", id_modello)).first();
                 this.collection.findOneAndDelete(doc);
                 return true;
@@ -75,7 +75,7 @@ public class Modello_MongoDB implements Modello_Dao {
     public Modello getModello(Integer id_modello) {
         try {
             Document documento = (Document) collection.find(eq("id_modello", id_modello)).first();
-            Modello modello = new Modello(documento.get("id_modello"),(String)documento.get("nome_modello"), (ArrayList) documento.get("attributi"));
+            Modello modello = new Modello((Integer) documento.get("id_modello"),(String)documento.get("nome_modello"), (ArrayList) documento.get("attributi"));
             return modello;
         } catch (Exception e) {
             return null;
@@ -86,7 +86,7 @@ public class Modello_MongoDB implements Modello_Dao {
         HashMap<Integer,Modello> modelli = new HashMap();
         List<Document> documents = (List<Document>) collection.find().into(new ArrayList<Document>());
         for(Document documento : documents){
-            Modello modello = new Modello(documento.get("id_modello"),(String)documento.get("nome_modello"), (ArrayList) documento.get("attributi"));
+            Modello modello = new Modello((Integer) documento.get("id_modello"),(String)documento.get("nome_modello"), (ArrayList) documento.get("attributi"));
             modelli.put(modello.getId_modello(),modello);
         }
         return modelli;

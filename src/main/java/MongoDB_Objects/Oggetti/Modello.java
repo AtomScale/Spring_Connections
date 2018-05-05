@@ -7,8 +7,8 @@ public class Modello {
     private String nome_modello;
     private ArrayList<String> attributi;
 
-    public Modello(Object id_modello, String nome_modello, ArrayList attributi) {
-        this.id_modello = (int)(long)id_modello;
+    public Modello(Integer id_modello, String nome_modello, ArrayList attributi) {
+        this.id_modello = id_modello;
         this.nome_modello = nome_modello;
         this.attributi = attributi;
     }
