@@ -26,16 +26,24 @@ public class Modello_MongoDB implements Modello_Dao {
 
         try {
             if (this.getModello(modello.getId_modello()) == null) {
+                if(modello.getId_modello().intValue()==0){
+                    Integer max=0;
+                    for(Integer key : modelliCollection().keySet()){
+                        if(key>max){
+                            max = key;
+                        }
+                    }
+                    modello.setId_modello(max+1);
+                }
                 json = mapper.writeValueAsString(modello);
                 Document documento = Document.parse(json);
                 collection.insertOne(documento);
-                System.out.println("Modello inserito.");
                 return true;
             } else {
-                System.out.println("Questo modello è già stato inserito.");
                 return false;
             }
         } catch (Exception e) {
+            System.out.println(e);
             return false;
         }
     }

@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89bc7de7-4ee4-4392-b3d8-3c4bdd03c439" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MongoDB_Objects/Connessioni/Tabella_MongoDB.java" afterPath="$PROJECT_DIR$/src/main/java/MongoDB_Objects/Connessioni/Tabella_MongoDB.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MongoDB_Objects/Oggetti/Tabella.java" afterPath="$PROJECT_DIR$/src/main/java/MongoDB_Objects/Oggetti/Tabella.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Spring/Application.java" afterPath="$PROJECT_DIR$/src/main/java/Spring/Application.java" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MongoDB_Objects/Connessioni/Tabella_MongoDB.class" afterPath="$PROJECT_DIR$/target/classes/MongoDB_Objects/Connessioni/Tabella_MongoDB.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MongoDB_Objects/Oggetti/Tabella.class" afterPath="$PROJECT_DIR$/target/classes/MongoDB_Objects/Oggetti/Tabella.class" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
-      <change beforePath="$PROJECT_DIR$/target/springconnectionatomscale-1.0.0.jar" afterPath="$PROJECT_DIR$/target/springconnectionatomscale-1.0.0.jar" />
-      <change beforePath="$PROJECT_DIR$/target/springconnectionatomscale-1.0.0.jar.original" afterPath="$PROJECT_DIR$/target/springconnectionatomscale-1.0.0.jar.original" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MongoDB_Objects/Connessioni/Modello_MongoDB.java" afterPath="$PROJECT_DIR$/src/main/java/MongoDB_Objects/Connessioni/Modello_MongoDB.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Spring/Controller/Modello_Controller.java" afterPath="$PROJECT_DIR$/src/main/java/Spring/Controller/Modello_Controller.java" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MongoDB_Objects/Connessioni/Modello_MongoDB.class" afterPath="$PROJECT_DIR$/target/classes/MongoDB_Objects/Connessioni/Modello_MongoDB.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Spring/Controller/Utente_Controller.class" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -27,24 +22,14 @@
       <file leaf-file-name="Modello_Controller.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Spring/Controller/Modello_Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+            <state relative-caret-position="306">
+              <caret line="44" column="0" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1641#1642#0" expanded="true" />
                 <element signature="e#1694#1695#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Utente_Controller.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Spring/Controller/Utente_Controller.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="59" column="5" lean-forward="false" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1880#1881#0" expanded="true" />
+                <element signature="e#1944#1945#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -60,21 +45,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Tabella.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/MongoDB_Objects/Oggetti/Tabella.java">
+      <file leaf-file-name="Utente_Dao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/MongoDB_Objects/Dao/Utente_Dao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="69" lean-forward="false" selection-start-line="10" selection-start-column="69" selection-end-line="10" selection-end-column="69" />
+            <state relative-caret-position="68">
+              <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Tabelle_Dao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/MongoDB_Objects/Dao/Tabelle_Dao.java">
+      <file leaf-file-name="Utente_Controller.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Spring/Controller/Utente_Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+            <state relative-caret-position="442">
+              <caret line="52" column="27" lean-forward="false" selection-start-line="52" selection-start-column="27" selection-end-line="52" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Utente_MongoDB.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/MongoDB_Objects/Connessioni/Utente_MongoDB.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-612">
+              <caret line="18" column="48" lean-forward="false" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -106,335 +103,28 @@
       <file leaf-file-name="Modello_MongoDB.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/MongoDB_Objects/Connessioni/Modello_MongoDB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="28" column="37" lean-forward="false" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+            <state relative-caret-position="1360">
+              <caret line="90" column="5" lean-forward="true" selection-start-line="90" selection-start-column="5" selection-end-line="90" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ObjectMapper.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.8.6/jackson-databind-2.8.6.jar!/com/fasterxml/jackson/databind/ObjectMapper.class">
+      <file leaf-file-name="Modello_Dao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/MongoDB_Objects/Dao/Modello_Dao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16558">
-              <caret line="1165" column="31" lean-forward="false" selection-start-line="1165" selection-start-column="31" selection-end-line="1165" selection-end-column="31" />
-              <folding>
-                <marker date="1516392017354" expanded="false" signature="0:104" ph="/.../" />
-                <marker date="1516392017354" expanded="false" signature="154:5657" ph="..." />
-                <marker date="1516392017354" expanded="true" signature="6907:7017" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="7059:7154" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="7201:8397" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="8503:10226" ph="{...}" />
-                <marker date="1516392017354" expanded="false" signature="10286:10297" ph=" { " />
-                <marker date="1516392017354" expanded="false" signature="10333:10339" ph=" }" />
-                <marker date="1516392017354" expanded="true" signature="10372:10470" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="10523:10745" ph="{...}" />
-                <marker date="1516392017354" expanded="false" signature="10814:10825" ph=" { " />
-                <marker date="1516392017354" expanded="false" signature="10863:10869" ph=" }" />
-                <marker date="1516392017354" expanded="true" signature="11037:11143" ph="{...}" />
-                <marker date="1516392017354" expanded="false" signature="11210:11221" ph=" { " />
-                <marker date="1516392017354" expanded="false" signature="11259:11265" ph=" }" />
-                <marker date="1516392017354" expanded="true" signature="11354:11416" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="11521:11589" ph="{...}" />
-                <marker date="1516392017354" expanded="false" signature="11619:11630" ph=" { " />
-                <marker date="1516392017354" expanded="false" signature="11660:11666" ph=" }" />
-                <marker date="1516392017354" expanded="true" signature="11722:19065" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="12592:19004" ph="{...}" />
-                <marker date="1516392017354" expanded="false" signature="12647:12674" ph=" { " />
-                <marker date="1516392017354" expanded="false" signature="12709:12731" ph=" }" />
-                <marker date="1516392017354" expanded="false" signature="12796:12823" ph=" { " />
-                <marker date="1516392017354" expanded="false" signature="12848:12870" ph=" }" />
-                <marker date="1516392017354" expanded="false" signature="12927:12954" ph=" { " />
-                <marker date="1516392017354" expanded="false" signature="12992:13014" ph=" }" />
-                <marker date="1516392017354" expanded="false" signature="13077:13104" ph=" { " />
-                <marker date="1516392017354" expanded="false" signature="13142:13164" ph=" }" />
-                <marker date="1516392017354" expanded="false" signature="13236:13263" ph=" { " />
-                <marker date="1516392017354" expanded="false" signature="13301:13323" ph=" }" />
-                <marker date="1516392017354" expanded="false" signature="13393:13420" ph=" { " />
-                <marker date="1516392017354" expanded="false" signature="13458:13480" ph=" }" />
-                <marker date="1516392017354" expanded="false" signature="13537:13564" ph=" { " />
-                <marker date="1516392017354" expanded="false" signature="13602:13624" ph=" }" />
-                <marker date="1516392017354" expanded="true" signature="13720:13806" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="13905:13991" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="14072:14166" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="14234:14509" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="14583:14861" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="14958:15237" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="15301:15454" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="15521:15677" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="15770:15927" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="16016:16295" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="16368:16578" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="16668:16950" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="17027:17282" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="17372:17687" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="17777:18092" ph="{...}" />
-                <marker date="1516392017354" expanded="false" signature="18161:18188" ph=" { " />
-                <marker date="1516392017354" expanded="false" signature="18233:18255" ph=" }" />
-                <marker date="1516392017354" expanded="true" signature="18329:18422" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="18515:18611" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="18717:18803" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="18886:18986" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="19126:19356" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="19424:19624" ph="{...}" />
-                <marker date="1516392017354" expanded="false" signature="19670:19681" ph=" { " />
-                <marker date="1516392017354" expanded="false" signature="19719:19725" ph=" }" />
-                <marker date="1516392017354" expanded="true" signature="19795:20185" ph="{...}" />
-                <marker date="1516392017354" expanded="false" signature="20235:20246" ph=" { " />
-                <marker date="1516392017354" expanded="false" signature="20299:20305" ph=" }" />
-                <marker date="1516392017354" expanded="false" signature="20362:20373" ph=" { " />
-                <marker date="1516392017354" expanded="false" signature="20406:20412" ph=" }" />
-                <marker date="1516392017354" expanded="false" signature="20473:20484" ph=" { " />
-                <marker date="1516392017354" expanded="false" signature="20519:20525" ph=" }" />
-                <marker date="1516392017354" expanded="false" signature="20588:20599" ph=" { " />
-                <marker date="1516392017354" expanded="false" signature="20635:20641" ph=" }" />
-                <marker date="1516392017354" expanded="true" signature="20709:20774" ph="{...}" />
-                <marker date="1516392017354" expanded="false" signature="20827:20838" ph=" { " />
-                <marker date="1516392017354" expanded="false" signature="20869:20875" ph=" }" />
-                <marker date="1516392017354" expanded="true" signature="20952:21018" ph="{...}" />
-                <marker date="1516392017354" expanded="false" signature="21073:21084" ph=" { " />
-                <marker date="1516392017354" expanded="false" signature="21116:21122" ph=" }" />
-                <marker date="1516392017354" expanded="true" signature="21186:21261" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="21335:21419" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="21493:21583" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="21650:22018" ph="{...}" />
-                <marker date="1516392017354" expanded="false" signature="22071:22082" ph=" { " />
-                <marker date="1516392017354" expanded="false" signature="22125:22131" ph=" }" />
-                <marker date="1516392017354" expanded="false" signature="22160:22171" ph=" { " />
-                <marker date="1516392017354" expanded="false" signature="22203:22209" ph=" }" />
-                <marker date="1516392017354" expanded="true" signature="22215:22233" ph="/**...*/" />
-                <marker date="1516392017354" expanded="false" signature="22323:22334" ph=" { " />
-                <marker date="1516392017354" expanded="false" signature="22363:22369" ph=" }" />
-                <marker date="1516392017354" expanded="true" signature="22375:22393" ph="/**...*/" />
-                <marker date="1516392017354" expanded="false" signature="22490:22501" ph=" { " />
-                <marker date="1516392017354" expanded="false" signature="22536:22542" ph=" }" />
-                <marker date="1516392017354" expanded="true" signature="22599:22678" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="22684:22702" ph="/**...*/" />
-                <marker date="1516392017354" expanded="false" signature="22780:22791" ph=" { " />
-                <marker date="1516392017354" expanded="false" signature="22814:22820" ph=" }" />
-                <marker date="1516392017354" expanded="true" signature="22885:23061" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="23152:23386" ph="{...}" />
-                <marker date="1516392017354" expanded="false" signature="23435:23446" ph=" { " />
-                <marker date="1516392017354" expanded="false" signature="23475:23481" ph=" }" />
-                <marker date="1516392017354" expanded="true" signature="23547:23762" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="23841:24017" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="24146:24344" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="24422:24596" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="24660:24737" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="24803:24911" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="24970:25089" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="25157:25277" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="25325:25425" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="25503:25574" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="25676:26135" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="26254:26584" ph="{...}" />
-                <marker date="1516392017354" expanded="false" signature="26632:26643" ph=" { " />
-                <marker date="1516392017354" expanded="false" signature="26699:26705" ph=" }" />
-                <marker date="1516392017354" expanded="true" signature="26778:26960" ph="{...}" />
-                <marker date="1516392017354" expanded="false" signature="27012:27023" ph=" { " />
-                <marker date="1516392017354" expanded="false" signature="27075:27081" ph=" }" />
-                <marker date="1516392017354" expanded="false" signature="27135:27146" ph=" { " />
-                <marker date="1516392017354" expanded="false" signature="27196:27202" ph=" }" />
-                <marker date="1516392017354" expanded="true" signature="27267:27341" ph="{...}" />
-                <marker date="1516392017354" expanded="false" signature="27382:27393" ph=" { " />
-                <marker date="1516392017354" expanded="false" signature="27418:27424" ph=" }" />
-                <marker date="1516392017354" expanded="true" signature="27480:27685" ph="{...}" />
-                <marker date="1516392017354" expanded="false" signature="27728:27739" ph=" { " />
-                <marker date="1516392017354" expanded="false" signature="27781:27787" ph=" }" />
-                <marker date="1516392017354" expanded="false" signature="27832:27843" ph=" { " />
-                <marker date="1516392017354" expanded="false" signature="27895:27901" ph=" }" />
-                <marker date="1516392017354" expanded="true" signature="27961:28064" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="28134:28244" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="28293:28412" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="28478:28552" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="28558:28576" ph="/**...*/" />
-                <marker date="1516392017354" expanded="true" signature="28651:28749" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="28824:28943" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="29003:29177" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="29241:29313" ph="{...}" />
-                <marker date="1516392017354" expanded="false" signature="29350:29361" ph=" { " />
-                <marker date="1516392017354" expanded="false" signature="29386:29392" ph=" }" />
-                <marker date="1516392017354" expanded="true" signature="29398:29416" ph="/**...*/" />
-                <marker date="1516392017354" expanded="false" signature="29472:29483" ph=" { " />
-                <marker date="1516392017354" expanded="false" signature="29508:29514" ph=" }" />
-                <marker date="1516392017354" expanded="true" signature="29577:29769" ph="{...}" />
-                <marker date="1516392017354" expanded="false" signature="29808:29819" ph=" { " />
-                <marker date="1516392017354" expanded="false" signature="29868:29874" ph=" }" />
-                <marker date="1516392017354" expanded="true" signature="29941:30117" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="30198:30277" ph="{...}" />
-                <marker date="1516392017354" expanded="false" signature="30328:30339" ph=" { " />
-                <marker date="1516392017354" expanded="false" signature="30369:30375" ph=" }" />
-                <marker date="1516392017354" expanded="true" signature="30421:30595" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="30646:30822" ph="{...}" />
-                <marker date="1516392017354" expanded="false" signature="30869:30880" ph=" { " />
-                <marker date="1516392017354" expanded="false" signature="30926:30932" ph=" }" />
-                <marker date="1516392017354" expanded="true" signature="31000:31354" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="31407:31581" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="31635:31815" ph="{...}" />
-                <marker date="1516392017354" expanded="false" signature="31869:31880" ph=" { " />
-                <marker date="1516392017354" expanded="false" signature="31926:31932" ph=" }" />
-                <marker date="1516392017354" expanded="true" signature="32007:32153" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="32210:32309" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="32397:32503" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="32561:32663" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="32752:32861" ph="{...}" />
-                <marker date="1516392017354" expanded="false" signature="32917:32928" ph=" { " />
-                <marker date="1516392017354" expanded="false" signature="32976:32982" ph=" }" />
-                <marker date="1516392017354" expanded="true" signature="33059:33211" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="33276:33385" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="33477:33587" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="33653:33765" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="33858:33971" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="34051:34134" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="34234:34309" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="34401:34706" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="34799:35105" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="35188:35269" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="35372:35447" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="35542:35853" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="35949:36261" ph="{...}" />
-                <marker date="1516392017354" expanded="false" signature="36302:36313" ph=" { " />
-                <marker date="1516392017354" expanded="false" signature="36351:36357" ph=" }" />
-                <marker date="1516392017354" expanded="true" signature="36481:36600" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="36735:36857" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="36991:37087" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="37211:37297" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="37400:37844" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="37973:38036" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="38161:38489" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="38614:38700" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="38836:38925" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="39016:39191" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="39276:39450" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="39541:39721" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="39812:39992" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="40078:40255" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="40342:40521" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="40647:41284" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="41395:41658" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="41769:42032" ph="{...}" />
-                <marker date="1516392017354" expanded="false" signature="42074:42085" ph=" { " />
-                <marker date="1516392017354" expanded="false" signature="42150:42156" ph=" }" />
-                <marker date="1516392017354" expanded="false" signature="42196:42207" ph=" { " />
-                <marker date="1516392017354" expanded="false" signature="42271:42277" ph=" }" />
-                <marker date="1516392017354" expanded="false" signature="42325:42336" ph=" { " />
-                <marker date="1516392017354" expanded="false" signature="42387:42393" ph=" }" />
-                <marker date="1516392017354" expanded="true" signature="42487:43217" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="43315:44002" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="44051:44176" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="44259:44368" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="44419:44580" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="44665:44810" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="44930:45056" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="45184:45313" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="45433:45526" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="45645:45771" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="45898:46027" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="46146:46239" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="46365:46495" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="46629:46762" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="46888:46985" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="47107:47233" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="47363:47492" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="47614:47707" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="47834:47960" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="48095:48224" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="48351:48444" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="48566:48692" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="48835:48974" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="49104:49233" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="49384:49526" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="49648:49741" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="49884:49990" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="50073:50199" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="50282:50375" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="50501:50616" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="50743:50851" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="50929:51037" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="51156:51243" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="51327:51754" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="51837:52327" ph="{...}" />
-                <marker date="1516392017354" expanded="false" signature="52361:52372" ph=" { " />
-                <marker date="1516392017354" expanded="false" signature="52426:52432" ph=" }" />
-                <marker date="1516392017354" expanded="true" signature="52495:52579" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="52671:52760" ph="{...}" />
-                <marker date="1516392017354" expanded="false" signature="52807:52818" ph=" { " />
-                <marker date="1516392017354" expanded="false" signature="52881:52887" ph=" }" />
-                <marker date="1516392017354" expanded="true" signature="52956:53054" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="53109:53269" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="53332:53492" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="53547:53648" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="53699:53877" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="53936:54101" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="54165:54263" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="54317:54435" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="54497:54587" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="54646:54730" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="54788:54870" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="54876:54894" ph="/**...*/" />
-                <marker date="1516392017354" expanded="true" signature="54969:55129" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="55135:55153" ph="/**...*/" />
-                <marker date="1516392017354" expanded="true" signature="55236:55396" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="55402:55420" ph="/**...*/" />
-                <marker date="1516392017354" expanded="true" signature="55495:55596" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="55631:55732" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="55797:55883" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="55979:56070" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="56136:56350" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="56401:56537" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="56588:56757" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="56816:56985" ph="{...}" />
-                <marker date="1516392017354" expanded="false" signature="57036:57047" ph=" { " />
-                <marker date="1516392017354" expanded="false" signature="57111:57117" ph=" }" />
-                <marker date="1516392017354" expanded="true" signature="57171:57345" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="57413:57553" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="57609:57696" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="57758:57850" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="57908:57992" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="57998:58016" ph="/**...*/" />
-                <marker date="1516392017354" expanded="true" signature="58079:58215" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="58221:58239" ph="/**...*/" />
-                <marker date="1516392017354" expanded="true" signature="58302:58471" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="58477:58495" ph="/**...*/" />
-                <marker date="1516392017354" expanded="true" signature="58566:58735" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="58839:58960" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="59075:59176" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="59280:59368" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="59472:61240" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="61246:61264" ph="/**...*/" />
-                <marker date="1516392017354" expanded="true" signature="61362:61463" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="61582:61675" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="61794:62037" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="62127:62223" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="62321:62854" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="62979:63370" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="63491:63922" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="64038:64137" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="64251:65111" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="65205:66867" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="66942:67264" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="67452:68746" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="68886:69406" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="69466:69724" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="69737:70079" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="70187:72066" ph="{...}" />
-                <marker date="1516392017354" expanded="false" signature="70382:70397" ph=" { " />
-                <marker date="1516392017354" expanded="false" signature="70418:70428" ph=" }" />
-                <marker date="1516392017354" expanded="true" signature="70565:70687" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="70818:70938" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="70986:72060" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="72105:72268" ph="{...}" />
-                <marker date="1516392017354" expanded="true" signature="72251:72262" ph="{}" />
-              </folding>
+            <state relative-caret-position="221">
+              <caret line="15" column="19" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="19" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Application.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Application.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Spring/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <state relative-caret-position="238">
+              <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#656#657#0" expanded="true" />
@@ -523,15 +213,15 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/MongoDB_Objects/Connessioni/Utente_MongoDB.java" />
         <option value="$PROJECT_DIR$/src/main/java/Spring/Controller/Tabella_Controller.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Spring/Controller/Utente_Controller.java" />
         <option value="$PROJECT_DIR$/src/main/java/MongoDB_Objects/Connessioni/ConnectionMongoDb.java" />
         <option value="$PROJECT_DIR$/src/main/java/MongoDB_Objects/Dao/Modello_Dao.java" />
         <option value="$PROJECT_DIR$/src/main/java/MongoDB_Objects/Oggetti/Modello.java" />
-        <option value="$PROJECT_DIR$/src/main/java/MongoDB_Objects/Connessioni/Modello_MongoDB.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Spring/Controller/Modello_Controller.java" />
         <option value="$PROJECT_DIR$/src/main/java/MongoDB_Objects/Oggetti/Tabella.java" />
         <option value="$PROJECT_DIR$/src/main/java/MongoDB_Objects/Connessioni/Tabella_MongoDB.java" />
         <option value="$PROJECT_DIR$/src/main/java/Spring/Application.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MongoDB_Objects/Connessioni/Modello_MongoDB.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Spring/Controller/Modello_Controller.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Spring/Controller/Utente_Controller.java" />
       </list>
     </option>
   </component>
@@ -991,7 +681,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27889714" sideWeight="0.5078125" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32782516" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24565217" sideWeight="0.4921875" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24565217" sideWeight="0.4921875" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1065,13 +755,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/MongoDB_Objects/Connessioni/Tabella_MongoDB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="17" column="27" lean-forward="false" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MongoDB_Objects/Oggetti/Utente.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -1326,13 +1009,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MongoDB_Objects/Connessioni/Utente_MongoDB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="18" column="48" lean-forward="false" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MongoDB_Objects/Oggetti/Utente.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -1344,14 +1020,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="11" column="247" lean-forward="false" selection-start-line="11" selection-start-column="247" selection-end-line="11" selection-end-column="247" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MongoDB_Objects/Dao/Modello_Dao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="15" column="19" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1671,44 +1339,6 @@
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/java.base/java/io/DataOutput.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/MongoDB_Objects/Connessioni/Modello_MongoDB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="28" column="37" lean-forward="false" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MongoDB_Objects/Oggetti/Modello.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="21" column="37" lean-forward="false" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Spring/Controller/Modello_Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1641#1642#0" expanded="true" />
-            <element signature="e#1694#1695#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Spring/Controller/Utente_Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="59" column="5" lean-forward="false" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MongoDB_Objects/Oggetti/Tabella.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -1746,12 +1376,76 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Spring/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        <state relative-caret-position="238">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#656#657#0" expanded="true" />
             <element signature="e#718#719#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MongoDB_Objects/Dao/Modello_Dao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="15" column="19" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MongoDB_Objects/Dao/Utente_Dao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MongoDB_Objects/Connessioni/Utente_MongoDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-612">
+          <caret line="18" column="48" lean-forward="false" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Spring/Controller/Modello_Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="44" column="0" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1641#1642#0" expanded="true" />
+            <element signature="e#1694#1695#0" expanded="true" />
+            <element signature="e#1880#1881#0" expanded="true" />
+            <element signature="e#1944#1945#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MongoDB_Objects/Oggetti/Modello.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="21" column="37" lean-forward="false" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MongoDB_Objects/Connessioni/Modello_MongoDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1360">
+          <caret line="90" column="5" lean-forward="true" selection-start-line="90" selection-start-column="5" selection-end-line="90" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Spring/Controller/Utente_Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="52" column="27" lean-forward="false" selection-start-line="52" selection-start-column="27" selection-end-line="52" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

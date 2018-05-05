@@ -43,7 +43,7 @@ public class Modello_Controller {
         return mongoModel.modelliCollection();
     }
 
-    @RequestMapping(value = "/inserisci", method = RequestMethod.POST, consumes = MediaType.APPLICATION_JSON_VALUE)
+    @RequestMapping(value = "/inserisci", method = RequestMethod.POST , consumes = MediaType.APPLICATION_JSON_VALUE)
     public boolean inserisciModello(@RequestBody Modello modello) {
         return this.mongoModel.inserisciModello(modello);
     }
