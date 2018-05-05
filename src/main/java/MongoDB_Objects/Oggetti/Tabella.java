@@ -8,10 +8,10 @@ public class Tabella {
     private Integer id_modelloTabella;
     private ArrayList<String> tabella;
 
-    public Tabella(Object id_tabella,String username_utente, Object id_modelloTabella, ArrayList tabella) {
-        this.id_tabella = (int)(long)id_tabella;
+    public Tabella(Integer id_tabella,String username_utente, Integer id_modelloTabella, ArrayList tabella) {
+        this.id_tabella = id_tabella;
         this.username_utente = username_utente;
-        this.id_modelloTabella = (int)(long)id_modelloTabella;
+        this.id_modelloTabella = id_modelloTabella;
         this.tabella = tabella;
     }
 
