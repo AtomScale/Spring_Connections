@@ -23,7 +23,6 @@ public class Modello_MongoDB implements Modello_Dao {
     public boolean inserisciModello(Modello modello) {
         ObjectMapper mapper = new ObjectMapper();
         String json;
-
         try {
             if (this.getModello(modello.getId_modello()) == null) {
                 if(modello.getId_modello().intValue()==0){

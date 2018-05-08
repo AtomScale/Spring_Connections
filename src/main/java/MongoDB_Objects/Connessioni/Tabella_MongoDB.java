@@ -23,7 +23,6 @@ public class Tabella_MongoDB implements Tabelle_Dao {
     public boolean inserisciTabella(Tabella tabella) {
         ObjectMapper mapper = new ObjectMapper();
         String json;
-
         try {
             if (this.getTabella(tabella.getId_tabella()) == null) {
                 if(tabella.getId_tabella().intValue()==0){
@@ -43,6 +42,7 @@ public class Tabella_MongoDB implements Tabelle_Dao {
                 return false;
             }
         } catch(Exception e){
+            System.out.println(tabella.toString());
             System.out.println(e);
             return false;
         }

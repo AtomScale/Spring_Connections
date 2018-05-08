@@ -19,8 +19,8 @@ public class Tabella {
     }
 
     public Integer getId_tabella(){ return this.id_tabella; }
-    public void setId_tabella(Integer id_modelloTabella) {
-        this.id_modelloTabella = id_tabella;
+    public void setId_tabella(Integer id_tabella) {
+        this.id_tabella = id_tabella;
     }
 
     public String getUsername_utente() {
@@ -40,5 +40,9 @@ public class Tabella {
     }
     public void setTabella(ArrayList<String> tabella) {
         this.tabella = tabella;
+    }
+
+    public String toString(){
+        return "Id:"+this.getId_tabella()+" user:"+this.getUsername_utente()+" modello:"+this.getId_modelloTabella()+" tabella:"+this.getTabella();
     }
 }
