@@ -60,7 +60,6 @@ public class Modello_MongoDB implements Modello_Dao {
                 return true;
             } else
                 return false;
-
         } catch (Exception e) {
             System.out.println(e);
             return false;

@@ -26,6 +26,15 @@ public class Tabella_MongoDB implements Tabelle_Dao {
 
         try {
             if (this.getTabella(tabella.getId_tabella()) == null) {
+                if(tabella.getId_tabella().intValue()==0){
+                    Integer max=0;
+                    for(Integer key : tabelleCollection().keySet()){
+                        if(key>max){
+                            max = key;
+                        }
+                    }
+                    tabella.setId_tabella(max+1);
+                }
                 json = mapper.writeValueAsString(tabella);
                 Document documento = Document.parse(json);
                 this.collection.insertOne(documento);
