@@ -29,14 +29,13 @@ public class Tabella_MongoDB implements Tabelle_Dao {
                 json = mapper.writeValueAsString(tabella);
                 Document documento = Document.parse(json);
                 this.collection.insertOne(documento);
-                System.out.println("La tabella è stata inserita");
                 return true;
             } else {
-                System.out.println("La tabella è già stata inserita.");
                 return false;
             }
         } catch(Exception e){
-                return false;
+            System.out.println(e);
+            return false;
         }
     }
 
@@ -44,10 +43,9 @@ public class Tabella_MongoDB implements Tabelle_Dao {
         try {
             Document documento = (Document) this.collection.find(eq("id_tabella", id_tabella)).first();
             collection.findOneAndDelete(documento);
-            System.out.println("La tabella e' stata eliminata.");
             return true;
         } catch (Exception e) {
-            System.out.println("La tabella non esiste.");
+            System.out.println(e);
             return false;
         }
     }
@@ -61,6 +59,7 @@ public class Tabella_MongoDB implements Tabelle_Dao {
             collection.findOneAndReplace(eq("id_tabella", tabella.getId_tabella()),documento);
             return true;
         } catch (Exception e) {
+            System.out.println(e);
             return false;
         }
     }

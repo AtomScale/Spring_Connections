@@ -62,7 +62,7 @@ public class Modello_MongoDB implements Modello_Dao {
                 return false;
 
         } catch (Exception e) {
-            System.out.println("Il modello non esiste ha problemi."+e);
+            System.out.println(e);
             return false;
         }
     }

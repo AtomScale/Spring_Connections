@@ -29,13 +29,12 @@ public class Utente_MongoDB implements Utente_Dao {
                 json = mapper.writeValueAsString(utente);
                 Document documeto = Document.parse(json);
                 this.collection.insertOne(documeto);
-                System.out.println("Utente inserito.");
                 return true;
             } else {
-                System.out.println("L'utente è già stato inserito.");
                 return false;
             }
         } catch (Exception e) {
+            System.out.println(e);
             return false;
         }
     }
@@ -44,10 +43,9 @@ public class Utente_MongoDB implements Utente_Dao {
         try {
             Document documento = (Document) this.collection.find(eq("username", username)).first();
             this.collection.deleteOne(documento);
-            System.out.println("L'utente e' stato eliminato.");
             return true;
         } catch (Exception e) {
-            System.out.println("L'utente non esiste.");
+            System.out.println(e);
             return false;
         }
     }

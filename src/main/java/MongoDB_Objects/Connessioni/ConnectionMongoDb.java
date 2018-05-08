@@ -18,7 +18,6 @@ public class ConnectionMongoDb {
             mongoLogger.setLevel(Level.SEVERE);
             mongoClient = new MongoClient(new MongoClientURI(Url));
             mongoDatabase = mongoClient.getDatabase(Db);
-            System.out.println("Instaurazione connessione al Database.");
         }catch(Exception e){
             System.err.println("Errore nella connessione a MongoDB.");
         }
