@@ -7,6 +7,7 @@ import com.mongodb.client.MongoCollection;
 import org.bson.Document;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.List;
 
 import static com.mongodb.client.model.Filters.eq;
@@ -91,5 +92,18 @@ public class Tabella_MongoDB implements Tabelle_Dao {
             tabelle.put(tabella.getId_tabella(),tabella);
         }
         return tabelle;
+    }
+
+    @Override
+    public ArrayList<Integer> id_tabelle_utenteSpecifico(String username) {
+        ArrayList<Integer> tabelle_utente = new ArrayList<>();
+        HashMap<Integer,Tabella> tabelle = new HashMap();
+        tabelle = this.tabelleCollection();
+        for ( Integer keys : tabelle.keySet()){
+            if(tabelle.get(keys).getUsername_utente().equals(username)){
+                tabelle_utente.add(keys);
+            }
+        }
+        return tabelle_utente;
     }
 }
