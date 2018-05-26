@@ -7,11 +7,7 @@
       </list>
     </option>
   </component>
-<<<<<<< HEAD
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_9" project-jdk-name="10" project-jdk-type="JavaSDK">
-=======
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_9" project-jdk-name="9" project-jdk-type="JavaSDK">
->>>>>>> a1da0e5177f09d63a4bd98235668ed3bca07fdd7
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
