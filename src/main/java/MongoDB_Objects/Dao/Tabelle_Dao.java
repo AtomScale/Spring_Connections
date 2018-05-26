@@ -2,6 +2,7 @@ package MongoDB_Objects.Dao;
 
 import MongoDB_Objects.Oggetti.Tabella;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 
 public interface Tabelle_Dao {
@@ -14,4 +15,6 @@ public interface Tabelle_Dao {
     Tabella getTabella(Integer id_tabella);
 
     HashMap<Integer,Tabella> tabelleCollection();
+
+    public ArrayList<Integer> id_tabelle_utenteSpecifico(String username);
 }

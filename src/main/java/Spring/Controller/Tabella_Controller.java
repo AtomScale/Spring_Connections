@@ -10,6 +10,7 @@ import org.springframework.web.cors.CorsConfiguration;
 import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 import org.springframework.web.filter.CorsFilter;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 
 @RestController
@@ -56,5 +57,10 @@ public class Tabella_Controller {
     @RequestMapping(value = "/elimina/{id_tabella}", method = RequestMethod.GET)
     public boolean eliminaTabella(@PathVariable("id_tabella") Integer id_tabella) {
         return this.mongoTable.eliminaTabella(id_tabella);
+    }
+
+    @RequestMapping(value = "/tabelle_utente/{username}", method = RequestMethod.GET)
+    public ArrayList<Integer> id_tabelle_utenteSpecifico(@PathVariable("username") String username) {
+        return this.mongoTable.id_tabelle_utenteSpecifico(username);
     }
 }
