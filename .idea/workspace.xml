@@ -2,14 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89bc7de7-4ee4-4392-b3d8-3c4bdd03c439" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MongoDB_Objects/Connessioni/ConnectionMongoDb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MongoDB_Objects/Connessioni/ConnectionMongoDb.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MongoDB_Objects/Connessioni/Modello_MongoDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MongoDB_Objects/Connessioni/Modello_MongoDB.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MongoDB_Objects/Connessioni/Tabella_MongoDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MongoDB_Objects/Connessioni/Tabella_MongoDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MongoDB_Objects/Oggetti/Tabella.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MongoDB_Objects/Oggetti/Tabella.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MongoDB_Objects/Dao/Modello_Dao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MongoDB_Objects/Dao/Modello_Dao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MongoDB_Objects/Oggetti/Modello.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MongoDB_Objects/Oggetti/Modello.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Spring/Controller/Modello_Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Spring/Controller/Modello_Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MongoDB_Objects/Connessioni/ConnectionMongoDb.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MongoDB_Objects/Connessioni/ConnectionMongoDb.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/MongoDB_Objects/Connessioni/Modello_MongoDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MongoDB_Objects/Connessioni/Modello_MongoDB.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/MongoDB_Objects/Connessioni/Tabella_MongoDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MongoDB_Objects/Connessioni/Tabella_MongoDB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MongoDB_Objects/Oggetti/Tabella.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MongoDB_Objects/Oggetti/Tabella.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MongoDB_Objects/Dao/Modello_Dao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MongoDB_Objects/Dao/Modello_Dao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MongoDB_Objects/Oggetti/Modello.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MongoDB_Objects/Oggetti/Modello.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Spring/Controller/Modello_Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Spring/Controller/Modello_Controller.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,47 +27,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Application.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Spring/Application.java">
+      <file leaf-file-name="Modello.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/MongoDB_Objects/Oggetti/Modello.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#657#658#0" expanded="true" />
-                <element signature="e#719#720#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="391">
+              <caret line="27" column="35" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Tabella_MongoDB.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/MongoDB_Objects/Connessioni/Tabella_MongoDB.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="108" column="1" lean-forward="true" selection-start-line="108" selection-start-column="1" selection-end-line="108" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Tabella_Controller.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Spring/Controller/Tabella_Controller.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="61" column="84" lean-forward="true" selection-start-line="61" selection-start-column="84" selection-end-line="61" selection-end-column="84" />
-              <folding>
-                <element signature="e#1641#1642#0" expanded="true" />
-                <element signature="e#1694#1695#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Tabelle_Dao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/MongoDB_Objects/Dao/Tabelle_Dao.java">
+      <file leaf-file-name="Modello_Dao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/MongoDB_Objects/Dao/Modello_Dao.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+              <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Modello_MongoDB.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/MongoDB_Objects/Connessioni/Modello_MongoDB.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1700">
+              <caret line="109" column="30" selection-start-line="109" selection-start-column="30" selection-end-line="109" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Modello_Controller.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Spring/Controller/Modello_Controller.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="23" column="59" selection-start-line="23" selection-start-column="59" selection-end-line="23" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -138,17 +134,18 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/main/java/MongoDB_Objects/Dao/Modello_Dao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/MongoDB_Objects/Oggetti/Modello.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Spring/Controller/Modello_Controller.java" />
         <option value="$PROJECT_DIR$/src/main/java/Spring/Controller/Utente_Controller.java" />
         <option value="$PROJECT_DIR$/src/main/java/Spring/Application.java" />
         <option value="$PROJECT_DIR$/src/main/java/MongoDB_Objects/Connessioni/Utente_MongoDB.java" />
-        <option value="$PROJECT_DIR$/src/main/java/MongoDB_Objects/Connessioni/Modello_MongoDB.java" />
         <option value="$PROJECT_DIR$/src/main/java/MongoDB_Objects/Oggetti/Tabella.java" />
         <option value="$PROJECT_DIR$/src/main/java/MongoDB_Objects/Dao/Tabelle_Dao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/MongoDB_Objects/Connessioni/Tabella_MongoDB.java" />
         <option value="$PROJECT_DIR$/src/main/java/Spring/Controller/Tabella_Controller.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MongoDB_Objects/Connessioni/ConnectionMongoDb.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MongoDB_Objects/Oggetti/Modello.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MongoDB_Objects/Dao/Modello_Dao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MongoDB_Objects/Connessioni/Tabella_MongoDB.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MongoDB_Objects/Connessioni/Modello_MongoDB.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Spring/Controller/Modello_Controller.java" />
       </list>
     </option>
   </component>
@@ -176,10 +173,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-12" />
-    <option name="y" value="-12" />
-    <option name="width" value="1946" />
-    <option name="height" value="1226" />
+    <option name="x" value="953" />
+    <option name="width" value="974" />
+    <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -189,44 +185,43 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Spring_Connections" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spring_Connections" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringConnection" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringConnection" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Spring_Connections" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spring_Connections" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringConnection" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringConnection" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Spring_Connections" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spring_Connections" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringConnection" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringConnection" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Spring_Connections" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spring_Connections" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringConnection" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringConnection" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Spring_Connections" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spring_Connections" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringConnection" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringConnection" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="MongoDB_Objects" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Spring_Connections" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spring_Connections" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringConnection" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringConnection" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -234,8 +229,8 @@
               <item name="Connessioni" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Spring_Connections" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spring_Connections" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringConnection" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringConnection" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -243,8 +238,8 @@
               <item name="Dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Spring_Connections" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spring_Connections" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringConnection" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringConnection" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -252,16 +247,16 @@
               <item name="Oggetti" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Spring_Connections" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spring_Connections" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringConnection" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringConnection" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Spring" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Spring_Connections" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spring_Connections" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringConnection" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringConnection" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -272,7 +267,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -411,19 +407,6 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-    </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
-    </configuration>
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Utente_MongoDB" />
@@ -519,7 +502,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="973" height="613" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -530,11 +514,12 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5078125" side_tool="true" weight="0.27889714" />
       <window_info anchor="right" id="Maven Projects" order="4" weight="0.32782516" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4921875" weight="0.24351297" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4921875" weight="0.2429022" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32899022" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3076121" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.184375" />
+      <window_info id="Learn" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
@@ -544,7 +529,6 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
@@ -555,23 +539,23 @@
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49421966" visible="true" weight="0.27795875" />
       <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32056892" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info id="Image Layers" order="6" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
       <window_info id="Learn" order="7" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50578034" side_tool="true" weight="0.27875" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50578034" side_tool="true" weight="0.27875" />
       <window_info id="Capture Tool" order="2" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32790446" />
@@ -627,9 +611,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="34" column="90" selection-start-line="34" selection-start-column="79" selection-end-line="34" selection-end-column="90" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -700,9 +681,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="34" column="90" selection-start-line="34" selection-start-column="79" selection-end-line="34" selection-end-column="90" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -773,9 +751,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="34" column="49" selection-start-line="34" selection-start-column="49" selection-end-line="34" selection-end-column="92" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -849,13 +824,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MongoDB_Objects/Oggetti/Utente.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.8.6/jackson-databind-2.8.6.jar!/com/fasterxml/jackson/databind/ObjectMapper.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="16558">
@@ -864,13 +832,6 @@
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/java.base/java/io/DataOutput.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/MongoDB_Objects/Dao/Modello_Dao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="15" column="19" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MongoDB_Objects/Dao/Utente_Dao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -878,48 +839,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Spring/Controller/Modello_Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Spring/Controller/Utente_Controller.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="34" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MongoDB_Objects/Connessioni/Utente_MongoDB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MongoDB_Objects/Oggetti/Modello.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MongoDB_Objects/Oggetti/Tabella.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MongoDB_Objects/Connessioni/ConnectionMongoDb.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
@@ -930,22 +853,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MongoDB_Objects/Connessioni/Modello_MongoDB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="38" column="12" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Spring/Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#657#658#0" expanded="true" />
-            <element signature="e#719#720#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MongoDB_Objects/Connessioni/Utente_MongoDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="56" column="52" selection-start-line="56" selection-start-column="52" selection-end-line="56" selection-end-column="52" />
         </state>
       </provider>
     </entry>
@@ -956,21 +874,66 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MongoDB_Objects/Oggetti/Utente.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MongoDB_Objects/Connessioni/ConnectionMongoDb.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MongoDB_Objects/Oggetti/Tabella.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MongoDB_Objects/Connessioni/Tabella_MongoDB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="108" column="1" lean-forward="true" selection-start-line="108" selection-start-column="1" selection-end-line="108" selection-end-column="1" />
+        <state relative-caret-position="756">
+          <caret line="103" column="13" selection-start-line="103" selection-start-column="13" selection-end-line="103" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Spring/Controller/Tabella_Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
+        <state relative-caret-position="756">
           <caret line="61" column="84" lean-forward="true" selection-start-line="61" selection-start-column="84" selection-end-line="61" selection-end-column="84" />
-          <folding>
-            <element signature="e#1641#1642#0" expanded="true" />
-            <element signature="e#1694#1695#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MongoDB_Objects/Dao/Modello_Dao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MongoDB_Objects/Connessioni/Modello_MongoDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1700">
+          <caret line="109" column="30" selection-start-line="109" selection-start-column="30" selection-end-line="109" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Spring/Controller/Modello_Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="23" column="59" selection-start-line="23" selection-start-column="59" selection-end-line="23" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MongoDB_Objects/Oggetti/Modello.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="27" column="35" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
         </state>
       </provider>
     </entry>
