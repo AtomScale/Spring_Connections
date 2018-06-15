@@ -2,6 +2,7 @@ package MongoDB_Objects.Dao;
 
 import MongoDB_Objects.Oggetti.Modello;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 
 public interface Modello_Dao {
@@ -14,4 +15,6 @@ public interface Modello_Dao {
     Modello getModello(Integer id_modello);
 
     HashMap<Integer,Modello> modelliCollection();
+
+    ArrayList<Integer> getIdModelliUtente(String username);
 }

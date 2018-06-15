@@ -81,7 +81,7 @@ public class Modello_MongoDB implements Modello_Dao {
     public Modello getModello(Integer id_modello) {
         try {
             Document documento = (Document) collection.find(eq("id_modello", id_modello)).first();
-            Modello modello = new Modello((Integer) documento.get("id_modello"),(String)documento.get("nome_modello"), (ArrayList) documento.get("attributi"));
+            Modello modello = new Modello((Integer) documento.get("id_modello"),(String)documento.get("nome_modello"), (String)documento.get("username"), (ArrayList) documento.get("attributi"));
             return modello;
         } catch (Exception e) {
             return null;
@@ -92,9 +92,22 @@ public class Modello_MongoDB implements Modello_Dao {
         HashMap<Integer,Modello> modelli = new HashMap();
         List<Document> documents = (List<Document>) collection.find().into(new ArrayList<Document>());
         for(Document documento : documents){
-            Modello modello = new Modello((Integer) documento.get("id_modello"),(String)documento.get("nome_modello"), (ArrayList) documento.get("attributi"));
+            Modello modello = new Modello((Integer) documento.get("id_modello"),(String)documento.get("nome_modello"), (String)documento.get("username"), (ArrayList) documento.get("attributi"));
             modelli.put(modello.getId_modello(),modello);
         }
         return modelli;
     }
+
+
+    public ArrayList<Integer> getIdModelliUtente(String username) {
+        ArrayList<Integer> modelli_utente = new ArrayList<>();
+        HashMap<Integer, Modello> modelli = this.modelliCollection();
+        for (Integer key : modelli.keySet()) {
+            if (modelli.get(key).getUsername().equals(username)) {
+                modelli_utente.add(key);
+            }
+        }
+        return modelli_utente;
+    }
+
 }

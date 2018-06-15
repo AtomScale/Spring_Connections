@@ -107,11 +107,10 @@ public class Tabella_MongoDB implements Tabelle_Dao {
     @Override
     public ArrayList<Integer> id_tabelle_utenteSpecifico(String username) {
         ArrayList<Integer> tabelle_utente = new ArrayList<>();
-        HashMap<Integer,Tabella> tabelle = new HashMap();
-        tabelle = this.tabelleCollection();
-        for ( Integer keys : tabelle.keySet()){
-            if(tabelle.get(keys).getUsername_utente().equals(username)){
-                tabelle_utente.add(keys);
+        HashMap<Integer,Tabella> tabelle = this.tabelleCollection();
+        for ( Integer key : tabelle.keySet()){
+            if(tabelle.get(key).getUsername_utente().equals(username)){
+                tabelle_utente.add(key);
             }
         }
         return tabelle_utente;
