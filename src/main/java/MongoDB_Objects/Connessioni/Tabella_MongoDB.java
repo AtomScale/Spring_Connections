@@ -3,8 +3,18 @@ package MongoDB_Objects.Connessioni;
 import MongoDB_Objects.Dao.Tabelle_Dao;
 import MongoDB_Objects.Oggetti.Tabella;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.mongodb.DBCursor;
+import com.mongodb.MongoClient;
+import com.mongodb.MongoClientURI;
 import com.mongodb.client.MongoCollection;
+import com.mongodb.client.MongoDatabase;
+import com.mongodb.gridfs.GridFS;
+import com.mongodb.gridfs.GridFSDBFile;
+import com.mongodb.gridfs.GridFSInputFile;
 import org.bson.Document;
+
+import java.io.File;
+import java.net.UnknownHostException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
@@ -105,5 +115,47 @@ public class Tabella_MongoDB implements Tabelle_Dao {
             }
         }
         return tabelle_utente;
+    }
+
+    @Override
+    public boolean aggiungiFile(String nomeId){
+        nomeId=nomeId.replace("\"","");
+        nomeId=nomeId.replace("}","");
+        nomeId=nomeId.replace("{","");
+        String nome = nomeId.split(",")[0].split(":")[1];
+        String id = nomeId.split(",")[1].split(":")[1];
+        String directory = "A:\\AlMax\\Documents\\GitHub\\Softable\\NodeWebServer\\Support\\";
+        try {
+            MongoClient mongoClient;
+            MongoDatabase mongoDatabase;
+            final String Url = "mongodb://Admin:Softable18!@softable-shard-00-00-ip3nr.mongodb.net:27017,softable-shard-00-01-ip3nr.mongodb.net:27017,softable-shard-00-02-ip3nr.mongodb.net:27017/test?ssl=true&replicaSet=Softable-shard-0&authSource=admin";
+            final String Db = "Softable";
+            mongoClient = new MongoClient(new MongoClientURI(Url));
+            mongoDatabase = mongoClient.getDatabase(Db);
+
+            String newFileName = nome;
+
+            File imageFile = new File(directory+nome);
+
+            // create a "photo" namespace
+            GridFS gfsPhoto = new GridFS(mongoClient.getDB("Immagini"));
+
+            // get image file from local drive
+            GridFSInputFile gfsFile = gfsPhoto.createFile(imageFile);
+
+            // set a new filename for identify purpose
+            gfsFile.setFilename(newFileName);
+            gfsFile.setContentType(id);
+
+            // save the image file into mongoDB
+            gfsFile.save();
+
+            // elimina l'immagine dalla directory
+            imageFile.delete();
+
+            return true;
+        } catch (Exception e) {
+            return false;
+        }
     }
 }

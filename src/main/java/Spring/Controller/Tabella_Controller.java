@@ -63,4 +63,9 @@ public class Tabella_Controller {
     public ArrayList<Integer> id_tabelle_utenteSpecifico(@PathVariable("username") String username) {
         return this.mongoTable.id_tabelle_utenteSpecifico(username);
     }
+
+    @RequestMapping(value = "/upload", method = RequestMethod.POST, consumes = MediaType.APPLICATION_JSON_VALUE)
+    public boolean aggiungiFile(@RequestBody String nome) {
+        return this.mongoTable.aggiungiFile(nome);
+    }
 }
