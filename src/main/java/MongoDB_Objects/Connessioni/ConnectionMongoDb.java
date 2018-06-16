@@ -1,8 +1,13 @@
 package MongoDB_Objects.Connessioni;
 
+import com.mongodb.DB;
 import com.mongodb.MongoClient;
 import com.mongodb.MongoClientURI;
 import com.mongodb.client.MongoDatabase;
+import com.mongodb.gridfs.GridFS;
+import com.mongodb.gridfs.GridFSInputFile;
+
+import java.io.File;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 

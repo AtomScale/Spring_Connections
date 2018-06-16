@@ -16,5 +16,9 @@ public interface Tabelle_Dao {
 
     HashMap<Integer,Tabella> tabelleCollection();
 
-    public ArrayList<Integer> id_tabelle_utenteSpecifico(String username);
+    ArrayList<Integer> id_tabelle_utenteSpecifico(String username);
+
+    boolean aggiungiFile(String nome);
+
+
 }
