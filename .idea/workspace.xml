@@ -3,18 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="89bc7de7-4ee4-4392-b3d8-3c4bdd03c439" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MongoDB_Objects/Connessioni/ConnectionMongoDb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MongoDB_Objects/Connessioni/ConnectionMongoDb.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MongoDB_Objects/Connessioni/Modello_MongoDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MongoDB_Objects/Connessioni/Modello_MongoDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MongoDB_Objects/Connessioni/Tabella_MongoDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MongoDB_Objects/Connessioni/Tabella_MongoDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MongoDB_Objects/Dao/Modello_Dao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MongoDB_Objects/Dao/Modello_Dao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MongoDB_Objects/Oggetti/Modello.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MongoDB_Objects/Oggetti/Modello.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Spring/Controller/Modello_Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Spring/Controller/Modello_Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MongoDB_Objects/Connessioni/ConnectionMongoDb.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MongoDB_Objects/Connessioni/ConnectionMongoDb.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MongoDB_Objects/Connessioni/Modello_MongoDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MongoDB_Objects/Connessioni/Modello_MongoDB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MongoDB_Objects/Connessioni/Tabella_MongoDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MongoDB_Objects/Connessioni/Tabella_MongoDB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MongoDB_Objects/Dao/Modello_Dao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MongoDB_Objects/Dao/Modello_Dao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MongoDB_Objects/Oggetti/Modello.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MongoDB_Objects/Oggetti/Modello.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Spring/Controller/Modello_Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Spring/Controller/Modello_Controller.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -27,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Modello.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Modello.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/MongoDB_Objects/Oggetti/Modello.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="27" column="35" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
+            <state relative-caret-position="519">
+              <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -48,16 +38,16 @@
       <file leaf-file-name="Modello_MongoDB.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/MongoDB_Objects/Connessioni/Modello_MongoDB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1700">
-              <caret line="109" column="30" selection-start-line="109" selection-start-column="30" selection-end-line="109" selection-end-column="30" />
+            <state relative-caret-position="464">
+              <caret line="94" column="238" selection-start-line="94" selection-start-column="238" selection-end-line="94" selection-end-column="238" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Modello_Controller.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Modello_Controller.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Spring/Controller/Modello_Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
+            <state relative-caret-position="138">
               <caret line="23" column="59" selection-start-line="23" selection-start-column="59" selection-end-line="23" selection-end-column="59" />
             </state>
           </provider>
@@ -141,11 +131,11 @@
         <option value="$PROJECT_DIR$/src/main/java/MongoDB_Objects/Dao/Tabelle_Dao.java" />
         <option value="$PROJECT_DIR$/src/main/java/Spring/Controller/Tabella_Controller.java" />
         <option value="$PROJECT_DIR$/src/main/java/MongoDB_Objects/Connessioni/ConnectionMongoDb.java" />
-        <option value="$PROJECT_DIR$/src/main/java/MongoDB_Objects/Oggetti/Modello.java" />
         <option value="$PROJECT_DIR$/src/main/java/MongoDB_Objects/Dao/Modello_Dao.java" />
         <option value="$PROJECT_DIR$/src/main/java/MongoDB_Objects/Connessioni/Tabella_MongoDB.java" />
-        <option value="$PROJECT_DIR$/src/main/java/MongoDB_Objects/Connessioni/Modello_MongoDB.java" />
         <option value="$PROJECT_DIR$/src/main/java/Spring/Controller/Modello_Controller.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MongoDB_Objects/Oggetti/Modello.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MongoDB_Objects/Connessioni/Modello_MongoDB.java" />
       </list>
     </option>
   </component>
@@ -185,6 +175,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -267,8 +259,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -533,35 +523,6 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
     </layout>
-    <layout-to-restore>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49421966" visible="true" weight="0.27795875" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32056892" />
-      <window_info id="Structure" order="1" weight="0.25" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info id="Image Layers" order="6" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
-      <window_info id="Learn" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50578034" side_tool="true" weight="0.27875" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32790446" />
-      <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info id="Favorites" order="5" side_tool="true" />
-    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -909,6 +870,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MongoDB_Objects/Oggetti/Modello.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="519">
+          <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MongoDB_Objects/Dao/Modello_Dao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -918,22 +886,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MongoDB_Objects/Connessioni/Modello_MongoDB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1700">
-          <caret line="109" column="30" selection-start-line="109" selection-start-column="30" selection-end-line="109" selection-end-column="30" />
+        <state relative-caret-position="464">
+          <caret line="94" column="238" selection-start-line="94" selection-start-column="238" selection-end-line="94" selection-end-column="238" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Spring/Controller/Modello_Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
+        <state relative-caret-position="138">
           <caret line="23" column="59" selection-start-line="23" selection-start-column="59" selection-end-line="23" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MongoDB_Objects/Oggetti/Modello.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="27" column="35" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
         </state>
       </provider>
     </entry>

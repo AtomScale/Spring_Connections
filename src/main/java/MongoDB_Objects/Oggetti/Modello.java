@@ -7,12 +7,14 @@ public class Modello {
     private String nome_modello;
     private String username;
     private ArrayList<String> attributi;
+    private ArrayList<String> tipiAttributi;
 
-    public Modello(Integer id_modello, String nome_modello, String username, ArrayList attributi) {
+    public Modello(Integer id_modello, String nome_modello, String username, ArrayList attributi, ArrayList tipiAttributi) {
         this.id_modello = id_modello;
         this.nome_modello = nome_modello;
         this.username = username;
         this.attributi = attributi;
+        this.tipiAttributi = tipiAttributi;
     }
 
     public Modello() {
@@ -41,5 +43,11 @@ public class Modello {
     public void setNome_modello(String nome) {
         this.nome_modello = nome;
     }
- 
+
+    public ArrayList<String> getTipiAttributi() {
+        return tipiAttributi;
+    }
+    public void setTipiAttributi(ArrayList<String> tipiAttributi) {
+        this.tipiAttributi = tipiAttributi;
+    }
 }
