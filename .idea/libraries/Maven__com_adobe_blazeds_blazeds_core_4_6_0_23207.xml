@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.adobe.blazeds:blazeds-core:4.6.0.23207">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/adobe/blazeds/blazeds-core/4.6.0.23207/blazeds-core-4.6.0.23207.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/adobe/blazeds/blazeds-core/4.6.0.23207/blazeds-core-4.6.0.23207-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/adobe/blazeds/blazeds-core/4.6.0.23207/blazeds-core-4.6.0.23207-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

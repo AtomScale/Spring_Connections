@@ -8,12 +8,15 @@ import com.mongodb.MongoClient;
 import com.mongodb.MongoClientURI;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoDatabase;
+import com.mongodb.client.gridfs.GridFSBucket;
+import com.mongodb.client.gridfs.GridFSBuckets;
 import com.mongodb.gridfs.GridFS;
 import com.mongodb.gridfs.GridFSDBFile;
 import com.mongodb.gridfs.GridFSInputFile;
 import org.bson.Document;
 
 import java.io.File;
+import java.io.FileOutputStream;
 import java.net.UnknownHostException;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -118,6 +121,7 @@ public class Tabella_MongoDB implements Tabelle_Dao {
 
     @Override
     public boolean aggiungiFile(String nomeId){
+        System.out.println(nomeId);
         nomeId=nomeId.replace("\"","");
         nomeId=nomeId.replace("}","");
         nomeId=nomeId.replace("{","");
@@ -151,6 +155,34 @@ public class Tabella_MongoDB implements Tabelle_Dao {
 
             // elimina l'immagine dalla directory
             imageFile.delete();
+
+            return true;
+        } catch (Exception e) {
+            return false;
+        }
+    }
+
+    @Override
+    public boolean riceviFile(String nomeId){
+        System.out.println(nomeId);
+        nomeId=nomeId.replace("\"","");
+        nomeId=nomeId.replace("}","");
+        nomeId=nomeId.replace("{","");
+        String nome = nomeId.split(",")[0].split(":")[1];
+        String id = nomeId.split(",")[1].split(":")[1];
+        try {
+            MongoClient mongoClient;
+            MongoDatabase mongoDatabase;
+            final String Url = "mongodb://Admin:Softable18!@softable-shard-00-00-ip3nr.mongodb.net:27017,softable-shard-00-01-ip3nr.mongodb.net:27017,softable-shard-00-02-ip3nr.mongodb.net:27017/test?ssl=true&replicaSet=Softable-shard-0&authSource=admin";
+            final String Db = "Immagini";
+            mongoClient = new MongoClient(new MongoClientURI(Url));
+            mongoDatabase = mongoClient.getDatabase(Db);
+
+            GridFSBucket gridBucket = GridFSBuckets.create(mongoDatabase);
+
+            FileOutputStream fileOutputStream = new FileOutputStream("C:/img/download-baby-image.jpg");
+            gridBucket.downloadToStream(nome, fileOutputStream);
+            fileOutputStream.close();
 
             return true;
         } catch (Exception e) {

@@ -70,5 +70,7 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-tx:4.3.7.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.data:spring-data-commons:1.13.1.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:jcl-over-slf4j:1.7.24" level="project" />
+    <orderEntry type="library" name="Maven: com.adobe.blazeds:blazeds-core:4.6.0.23207" level="project" />
+    <orderEntry type="library" name="Maven: org.mongodb:mongo-java-driver:3.6.1" level="project" />
   </component>
 </module>
