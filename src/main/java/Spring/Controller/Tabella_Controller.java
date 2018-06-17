@@ -68,4 +68,14 @@ public class Tabella_Controller {
     public boolean aggiungiFile(@RequestBody String nome) {
         return this.mongoTable.aggiungiFile(nome);
     }
+
+    @RequestMapping(value = "/richiediFile/{nome}", method = RequestMethod.GET)
+    public boolean riceviFile(@PathVariable("nome") String nome) {
+        return this.mongoTable.riceviFile(nome);
+    }
+
+    @RequestMapping(value = "/eliminaTuttiFile", method = RequestMethod.POST, consumes = MediaType.APPLICATION_JSON_VALUE)
+    public boolean eliminaTutto() {
+        return this.mongoTable.eliminaTutto();
+    }
 }

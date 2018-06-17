@@ -2,20 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89bc7de7-4ee4-4392-b3d8-3c4bdd03c439" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_adobe_blazeds_blazeds_core_4_6_0_23207.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongo_java_driver_3_6_1.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Spring_Connections.iml" afterPath="$PROJECT_DIR$/Spring_Connections.iml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ImageApp/SaveImageApp.java" afterPath="$PROJECT_DIR$/src/main/java/ImageApp/SaveImageApp.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MongoDB_Objects/Connessioni/Tabella_MongoDB.java" afterPath="$PROJECT_DIR$/src/main/java/MongoDB_Objects/Connessioni/Tabella_MongoDB.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MongoDB_Objects/Dao/Tabelle_Dao.java" afterPath="$PROJECT_DIR$/src/main/java/MongoDB_Objects/Dao/Tabelle_Dao.java" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ImageApp/SaveImageApp.class" afterPath="$PROJECT_DIR$/target/classes/ImageApp/SaveImageApp.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MongoDB_Objects/Connessioni/Modello_MongoDB.class" afterPath="$PROJECT_DIR$/target/classes/MongoDB_Objects/Connessioni/Modello_MongoDB.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MongoDB_Objects/Connessioni/Tabella_MongoDB.class" afterPath="$PROJECT_DIR$/target/classes/MongoDB_Objects/Connessioni/Tabella_MongoDB.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MongoDB_Objects/Dao/Tabelle_Dao.class" afterPath="$PROJECT_DIR$/target/classes/MongoDB_Objects/Dao/Tabelle_Dao.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MongoDB_Objects/Oggetti/Modello.class" afterPath="$PROJECT_DIR$/target/classes/MongoDB_Objects/Oggetti/Modello.class" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Spring/Controller/Tabella_Controller.java" afterPath="$PROJECT_DIR$/src/main/java/Spring/Controller/Tabella_Controller.java" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MongoDB_Objects/Connessioni/Tabella_MongoDB.class" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,7 +23,7 @@
       <file leaf-file-name="Modello.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/MongoDB_Objects/Oggetti/Modello.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3">
+            <state relative-caret-position="17">
               <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding>
                 <element signature="e#658#659#0" expanded="true" />
@@ -55,12 +47,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Tabella_Controller.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Tabella_Controller.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Spring/Controller/Tabella_Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-133">
-              <caret line="24" column="37" lean-forward="false" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
-              <folding />
+            <state relative-caret-position="547">
+              <caret line="80" column="1" lean-forward="true" selection-start-line="80" selection-start-column="1" selection-end-line="80" selection-end-column="1" />
+              <folding>
+                <element signature="e#3105#3106#0" expanded="true" />
+                <element signature="e#3160#3161#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -68,18 +63,8 @@
       <file leaf-file-name="Tabella_MongoDB.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/MongoDB_Objects/Connessioni/Tabella_MongoDB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="186" column="24" lean-forward="true" selection-start-line="173" selection-start-column="12" selection-end-line="186" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SaveImageApp.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ImageApp/SaveImageApp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="34" column="135" lean-forward="false" selection-start-line="34" selection-start-column="135" selection-end-line="34" selection-end-column="135" />
+            <state relative-caret-position="516">
+              <caret line="215" column="25" lean-forward="true" selection-start-line="215" selection-start-column="25" selection-end-line="215" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -98,8 +83,8 @@
       <file leaf-file-name="Tabelle_Dao.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/MongoDB_Objects/Dao/Tabelle_Dao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="22" column="34" lean-forward="false" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+            <state relative-caret-position="357">
+              <caret line="24" column="27" lean-forward="false" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -118,7 +103,7 @@
       <file leaf-file-name="Modello_MongoDB.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/MongoDB_Objects/Connessioni/Modello_MongoDB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="688">
+            <state relative-caret-position="1700">
               <caret line="109" column="30" lean-forward="false" selection-start-line="109" selection-start-column="30" selection-end-line="109" selection-end-column="30" />
               <folding />
             </state>
@@ -128,8 +113,18 @@
       <file leaf-file-name="Modello_Controller.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Spring/Controller/Modello_Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-116">
+            <state relative-caret-position="204">
               <caret line="23" column="59" lean-forward="false" selection-start-line="23" selection-start-column="59" selection-end-line="23" selection-end-column="59" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SaveImageApp.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ImageApp/SaveImageApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
+              <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -215,7 +210,6 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/GridFs/MongoGridFsTemplate.java" />
         <option value="$PROJECT_DIR$/src/main/java/GridFs/RestControllerAPIs.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Spring/Controller/Tabella_Controller.java" />
         <option value="$PROJECT_DIR$/src/main/java/MongoDB_Objects/Connessioni/ConnectionMongoDb.java" />
         <option value="$PROJECT_DIR$/src/main/java/MongoDB_Objects/Oggetti/Modello.java" />
         <option value="$PROJECT_DIR$/src/main/java/MongoDB_Objects/Dao/Modello_Dao.java" />
@@ -224,6 +218,7 @@
         <option value="$PROJECT_DIR$/src/main/java/MongoDB_Objects/Dao/Tabelle_Dao.java" />
         <option value="$PROJECT_DIR$/src/main/java/MongoDB_Objects/Connessioni/Tabella_MongoDB.java" />
         <option value="$PROJECT_DIR$/src/main/java/ImageApp/SaveImageApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Spring/Controller/Tabella_Controller.java" />
       </list>
     </option>
   </component>
@@ -250,7 +245,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="408" />
     <option name="y" value="42" />
     <option name="width" value="974" />
@@ -275,6 +270,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -365,7 +361,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -399,7 +394,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SaveImageApp">
+  <component name="RunManager" selected="Application.Application">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HEIGHT" value="0" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
@@ -585,8 +580,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.SaveImageApp" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Application" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Application" />
+        <item index="1" class="java.lang.String" itemvalue="Application.SaveImageApp" />
         <item index="2" class="java.lang.String" itemvalue="Application.app" />
         <item index="3" class="java.lang.String" itemvalue="Application.Main" />
         <item index="4" class="java.lang.String" itemvalue="Application.Main (1)" />
@@ -674,7 +669,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -690,7 +685,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1881663" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19029851" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1051,7 +1046,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MongoDB_Objects/Oggetti/Modello.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3">
+        <state relative-caret-position="17">
           <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding>
             <element signature="e#658#659#0" expanded="true" />
@@ -1076,7 +1071,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Spring/Controller/Modello_Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-116">
+        <state relative-caret-position="204">
           <caret line="23" column="59" lean-forward="false" selection-start-line="23" selection-start-column="59" selection-end-line="23" selection-end-column="59" />
           <folding />
         </state>
@@ -1084,16 +1079,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MongoDB_Objects/Connessioni/Modello_MongoDB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="688">
+        <state relative-caret-position="1700">
           <caret line="109" column="30" lean-forward="false" selection-start-line="109" selection-start-column="30" selection-end-line="109" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Spring/Controller/Tabella_Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-133">
-          <caret line="24" column="37" lean-forward="false" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
           <folding />
         </state>
       </provider>
@@ -1106,27 +1093,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ImageApp/SaveImageApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MongoDB_Objects/Dao/Tabelle_Dao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="22" column="34" lean-forward="false" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+        <state relative-caret-position="357">
+          <caret line="24" column="27" lean-forward="false" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MongoDB_Objects/Connessioni/Tabella_MongoDB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="186" column="24" lean-forward="true" selection-start-line="173" selection-start-column="12" selection-end-line="186" selection-end-column="24" />
+        <state relative-caret-position="516">
+          <caret line="215" column="25" lean-forward="true" selection-start-line="215" selection-start-column="25" selection-end-line="215" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ImageApp/SaveImageApp.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Spring/Controller/Tabella_Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="34" column="135" lean-forward="false" selection-start-line="34" selection-start-column="135" selection-end-line="34" selection-end-column="135" />
-          <folding />
+        <state relative-caret-position="547">
+          <caret line="80" column="1" lean-forward="true" selection-start-line="80" selection-start-column="1" selection-end-line="80" selection-end-column="1" />
+          <folding>
+            <element signature="e#3105#3106#0" expanded="true" />
+            <element signature="e#3160#3161#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

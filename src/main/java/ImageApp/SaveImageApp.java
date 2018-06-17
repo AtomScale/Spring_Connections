@@ -22,27 +22,27 @@ public class SaveImageApp {
     public static void main(String[] args) {
 
         try {
-            String nome= "me.jpg";
-            MongoClient mongoClient;
-            MongoDatabase mongoDatabase;
-            final String Url = "mongodb://Admin:Softable18!@softable-shard-00-00-ip3nr.mongodb.net:27017,softable-shard-00-01-ip3nr.mongodb.net:27017,softable-shard-00-02-ip3nr.mongodb.net:27017/test?ssl=true&replicaSet=Softable-shard-0&authSource=admin";
-            final String Db = "Immagini";
-            mongoClient = new MongoClient(new MongoClientURI(Url));
-            mongoDatabase = mongoClient.getDatabase(Db);
+            File directory = new File("A:\\AlMax\\Documents\\GitHub\\Softable\\NodeWebServer\\views\\img\\");
 
-            GridFSBucket gridBucket = GridFSBuckets.create(mongoDatabase);
+            File[] files = directory.listFiles();
 
-            FileOutputStream fileOutputStream = new FileOutputStream("A:\\AlMax\\Documents\\GitHub\\Softable\\NodeWebServer\\views\\img\\"+nome);
-            gridBucket.downloadToStream(nome, fileOutputStream);
-            fileOutputStream.close();
+            for (File file : files)
+
+            {
 
 
-        } catch (UnknownHostException e) {
-            e.printStackTrace();
-        } catch (MongoException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
+                if (!file.delete())
+
+                {
+
+                    System.out.println("Failed to delete " + file);
+
+                }
+            }
+
+
+        } catch (Exception e) {
+
         }
 
     }

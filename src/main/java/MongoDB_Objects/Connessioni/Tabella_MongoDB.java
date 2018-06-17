@@ -6,6 +6,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.mongodb.DBCursor;
 import com.mongodb.MongoClient;
 import com.mongodb.MongoClientURI;
+import com.mongodb.MongoException;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoDatabase;
 import com.mongodb.client.gridfs.GridFSBucket;
@@ -17,6 +18,7 @@ import org.bson.Document;
 
 import java.io.File;
 import java.io.FileOutputStream;
+import java.io.IOException;
 import java.net.UnknownHostException;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -163,14 +165,11 @@ public class Tabella_MongoDB implements Tabelle_Dao {
     }
 
     @Override
-    public boolean riceviFile(String nomeId){
-        System.out.println(nomeId);
-        nomeId=nomeId.replace("\"","");
-        nomeId=nomeId.replace("}","");
-        nomeId=nomeId.replace("{","");
-        String nome = nomeId.split(",")[0].split(":")[1];
-        String id = nomeId.split(",")[1].split(":")[1];
+    public boolean riceviFile(String nomeId) {
+    System.out.println(nomeId);
+
         try {
+            nomeId+=".jpg";
             MongoClient mongoClient;
             MongoDatabase mongoDatabase;
             final String Url = "mongodb://Admin:Softable18!@softable-shard-00-00-ip3nr.mongodb.net:27017,softable-shard-00-01-ip3nr.mongodb.net:27017,softable-shard-00-02-ip3nr.mongodb.net:27017/test?ssl=true&replicaSet=Softable-shard-0&authSource=admin";
@@ -180,13 +179,42 @@ public class Tabella_MongoDB implements Tabelle_Dao {
 
             GridFSBucket gridBucket = GridFSBuckets.create(mongoDatabase);
 
-            FileOutputStream fileOutputStream = new FileOutputStream("C:/img/download-baby-image.jpg");
-            gridBucket.downloadToStream(nome, fileOutputStream);
+            FileOutputStream fileOutputStream = new FileOutputStream("A:\\AlMax\\Documents\\GitHub\\Softable\\NodeWebServer\\views\\img\\" + nomeId);
+            gridBucket.downloadToStream(nomeId, fileOutputStream);
             fileOutputStream.close();
-
             return true;
+
         } catch (Exception e) {
             return false;
         }
     }
+
+    @Override
+    public boolean eliminaTutto() {
+
+        try {
+            File directory = new File("A:\\AlMax\\Documents\\GitHub\\Softable\\NodeWebServer\\views\\img\\");
+
+            File[] files = directory.listFiles();
+
+            for (File file : files)
+
+            {
+
+
+                if (!file.delete())
+
+                {
+
+                    System.out.println("Failed to delete " + file);
+
+                }
+            }
+            return true;
+
+        } catch (Exception e) {
+            return false;
+        }
+    }
+
 }

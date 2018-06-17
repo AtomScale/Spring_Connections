@@ -21,4 +21,6 @@ public interface Tabelle_Dao {
     boolean aggiungiFile(String nome);
 
     boolean riceviFile(String nome);
+
+    boolean eliminaTutto();
 }
