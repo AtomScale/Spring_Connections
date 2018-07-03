@@ -133,8 +133,7 @@ public class Tabella_MongoDB implements Tabelle_Dao {
         try {
             MongoClient mongoClient;
             MongoDatabase mongoDatabase;
-            final String Url = "mongodb://Admin:Softable18!@softable-shard-00-00-ip3nr.mongodb.net:27017,softable-shard-00-01-ip3nr.mongodb.net:27017,softable-shard-00-02-ip3nr.mongodb.net:27017/test?ssl=true&replicaSet=Softable-shard-0&authSource=admin";
-            final String Db = "Softable";
+            final String Url = "mongodb://localhost:27017";            final String Db = "Softable";
             mongoClient = new MongoClient(new MongoClientURI(Url));
             mongoDatabase = mongoClient.getDatabase(Db);
 
@@ -172,14 +171,13 @@ public class Tabella_MongoDB implements Tabelle_Dao {
             nomeId+=".jpg";
             MongoClient mongoClient;
             MongoDatabase mongoDatabase;
-            final String Url = "mongodb://Admin:Softable18!@softable-shard-00-00-ip3nr.mongodb.net:27017,softable-shard-00-01-ip3nr.mongodb.net:27017,softable-shard-00-02-ip3nr.mongodb.net:27017/test?ssl=true&replicaSet=Softable-shard-0&authSource=admin";
-            final String Db = "Immagini";
+            final String Url = "mongodb://localhost:27017";   final String Db = "Immagini";
             mongoClient = new MongoClient(new MongoClientURI(Url));
             mongoDatabase = mongoClient.getDatabase(Db);
 
             GridFSBucket gridBucket = GridFSBuckets.create(mongoDatabase);
 
-            FileOutputStream fileOutputStream = new FileOutputStream("A:\\AlMax\\Documents\\GitHub\\Softable\\NodeWebServer\\views\\img\\" + nomeId);
+            FileOutputStream fileOutputStream = new FileOutputStream("C:\\Users\\aliha\\Desktop\\Softable\\NodeWebServer\\views\\img\\" + nomeId);
             gridBucket.downloadToStream(nomeId, fileOutputStream);
             fileOutputStream.close();
             return true;
@@ -193,7 +191,7 @@ public class Tabella_MongoDB implements Tabelle_Dao {
     public boolean eliminaTutto() {
 
         try {
-            File directory = new File("A:\\AlMax\\Documents\\GitHub\\Softable\\NodeWebServer\\views\\img\\");
+            File directory = new File("C:\\Users\\aliha\\Desktop\\Softable\\NodeWebServer\\views\\img\\");
 
             File[] files = directory.listFiles();
 

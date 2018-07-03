@@ -14,8 +14,8 @@ import java.util.logging.Logger;
 public class ConnectionMongoDb {
     MongoClient mongoClient;
     MongoDatabase mongoDatabase;
-    final String Url = "mongodb://Admin:Softable18!@softable-shard-00-00-ip3nr.mongodb.net:27017,softable-shard-00-01-ip3nr.mongodb.net:27017,softable-shard-00-02-ip3nr.mongodb.net:27017/test?ssl=true&replicaSet=Softable-shard-0&authSource=admin";
-    //final String Url = "mongodb://localhost:27017";
+    //final String Url = "mongodb://Admin:Softable18!@softable-shard-00-00-ip3nr.mongodb.net:27017,softable-shard-00-01-ip3nr.mongodb.net:27017,softable-shard-00-02-ip3nr.mongodb.net:27017/test?ssl=true&replicaSet=Softable-shard-0&authSource=admin";
+    final String Url = "mongodb://localhost:27017";
     final String Db = "Softable";
 
     public ConnectionMongoDb(){
